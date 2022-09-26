@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <form action="/" method="POST" class="decor" enctype="multipart/form-data" style="opacity: 0.7;">
+      <div class="form-left-decoration"></div>
+      <div class="form-right-decoration"></div>
+      <div class="circle"></div>
+      <div class="form-inner">
+        <h1 style="text-align: center; padding-bottom: 10px;">Contact us</h1>
+          <label for="email_id" style="padding-bottom: 50px;">Email: </label>
+          <input type="text" id="email_id" name="email_id" placeholder="Email">
+          <label for="subject" >Subject: </label>
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+          <label for="body" >Body: </label>
+          <input type="text" id="body" name="body" placeholder="Body">
+          <label for="file" >Attachment: </label>
+          <input type="file" name="file_name" >
+          <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
