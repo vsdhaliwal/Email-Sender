@@ -24,7 +24,7 @@ def email(em, sub, bod, fname):
     msg.attach(p)
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, "kbogqctuecrcprks")
+    s.login(fromaddr, "your-password")
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
